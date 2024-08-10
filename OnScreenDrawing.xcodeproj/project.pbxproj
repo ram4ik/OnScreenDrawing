@@ -11,6 +11,9 @@
 		5EA351EF2C6742A900E7A861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA351EE2C6742A900E7A861 /* ContentView.swift */; };
 		5EA351F12C6742AA00E7A861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA351F02C6742AA00E7A861 /* Assets.xcassets */; };
 		5EA351F42C6742AA00E7A861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA351F32C6742AA00E7A861 /* Preview Assets.xcassets */; };
+		5EA351FC2C6742ED00E7A861 /* TransparentWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA351FB2C6742ED00E7A861 /* TransparentWindow.swift */; };
+		5EA351FE2C67431400E7A861 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA351FD2C67431400E7A861 /* DrawingView.swift */; };
+		5EA352002C6743B500E7A861 /* NSViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA351FF2C6743B500E7A861 /* NSViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		5EA351F02C6742AA00E7A861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EA351F32C6742AA00E7A861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5EA351F52C6742AA00E7A861 /* OnScreenDrawing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OnScreenDrawing.entitlements; sourceTree = "<group>"; };
+		5EA351FB2C6742ED00E7A861 /* TransparentWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentWindow.swift; sourceTree = "<group>"; };
+		5EA351FD2C67431400E7A861 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		5EA351FF2C6743B500E7A861 /* NSViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				5EA351F02C6742AA00E7A861 /* Assets.xcassets */,
 				5EA351F52C6742AA00E7A861 /* OnScreenDrawing.entitlements */,
 				5EA351F22C6742AA00E7A861 /* Preview Content */,
+				5EA351FB2C6742ED00E7A861 /* TransparentWindow.swift */,
+				5EA351FD2C67431400E7A861 /* DrawingView.swift */,
+				5EA351FF2C6743B500E7A861 /* NSViewRepresentable.swift */,
 			);
 			path = OnScreenDrawing;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA351FC2C6742ED00E7A861 /* TransparentWindow.swift in Sources */,
 				5EA351EF2C6742A900E7A861 /* ContentView.swift in Sources */,
 				5EA351ED2C6742A900E7A861 /* OnScreenDrawingApp.swift in Sources */,
+				5EA352002C6743B500E7A861 /* NSViewRepresentable.swift in Sources */,
+				5EA351FE2C67431400E7A861 /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
